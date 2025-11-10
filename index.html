@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator - Calculate with me!</title>
-</head>
-<body>
-    
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="board">
+        <div class="input-row">
+        <input type="text" placeholder="0" class="input" id="inputId" />
+      </div>
+      <div class="row">
+        <button class="button operatorColor all-clear">AC</button>
+        <button class="button operatorColor delete"><i class="fa-solid fa-delete-left delete"></i></button>
+        <button class="button operatorColor plus-minus"><i class="fa-solid fa-plus-minus plus-minus"></i></button>
+        <button class="button operatorColor power"><i class="fa-solid fa-chevron-up power"></i></button>
+      </div>
+      <div class="row">
+        <button class="button operatorColor">(</button>
+        <button class="button operatorColor">)</button>
+        <button class="button operatorColor sqrt">√</button>
+        <button class="button operatorColor divide"><i class="fa-solid fa-divide divide"></i></button>
+      </div>
+      <div class="row">
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button operatorColor multiply"><i class="fa-solid fa-xmark multiply"></i></button>
+      </div>
+      <div class="row">
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button operatorColor minus"><i class="fa-solid fa-minus minus"></i></button>
+      </div>
+      <div class="row">
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button operatorColor plus"><i class="fa-solid fa-plus plus"></i></button>
+      </div>
+      <div class="row">
+        <button class="button">00</i></button>
+        <button class="button">0</button>
+        <button class="button">.</button>
+        <button class="button operatorBgColor equal"><i class="fa-solid fa-equals equal"></i></button>
+      </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
