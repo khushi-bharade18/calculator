@@ -23,7 +23,7 @@ body {
   justify-content: center;
 }
 .board {
-  width: 30vmax;
+  width: 30vw;
   height: 650px;
   padding: 20px;
   display: flex;
@@ -106,7 +106,7 @@ body {
 
 @media only screen and (max-width: 650px) {
   .board {
-    width: 350px;
+    width: 70vw;
     height: 500px;
     gap: 15px;
     box-shadow: 2px 2px 17px 3px var(--border);
@@ -119,14 +119,14 @@ body {
   }
   .button {
     border-radius: 25px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .board {
-    width: 200px;
-    height: 300px;
+    width: 75vw;
+    height: 400px;
     padding: 10px;
     gap: 10px;
     box-shadow: 1px 1px 15px 1.3px var(--border);
@@ -134,7 +134,7 @@ body {
   .input {
     padding: 0px 10px;
     border-radius: 10px;
-    font-size: 1.6rem;
+    font-size: 2rem;
     box-shadow: 0px 0px 7.5px black;
   }
   .row{
@@ -142,7 +142,7 @@ body {
   }
   .button {
     border-radius: 12px;
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     box-shadow: 0px 0px 5px black;
   }
 }
